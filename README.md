@@ -1,5 +1,5 @@
 # Calculator-V2
-Uma nova versão da antiga calculadora na web que fiz [link aqui](https://github.com/jhonnycs/Calculator)
+Uma nova versão da antiga calculadora na web que fiz - [link aqui](https://github.com/jhonnycs/Calculator)
 
 ## Descrição
 O projeto Calculator-V2 se trata de uma calculadora que calcula as operações básicas (adição, multiplicação, subtração, divisão).
