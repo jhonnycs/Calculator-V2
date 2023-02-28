@@ -27,6 +27,7 @@
     flex-wrap: wrap;
 }
 
+
 .resultScreen {
     display: flex;
     margin-top: 20px;
@@ -38,6 +39,8 @@
     align-items: flex-end;
     border-radius: 10px;
 }
+
+
 
 #calc {
     background-color: #314657;
@@ -76,10 +79,24 @@
     justify-content: center;
     border-radius: 8px;
 
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+}
+@media screen and (orientation: portrait) and (max-width: 768px) {
+    .container {
+        width: 390px;
+        height: 660px;
+    }
+    .resultScreen {
+        width: 325px;
+        height: 150px;
+    }
+
+    .key {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
 }
