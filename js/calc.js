@@ -40,7 +40,7 @@ function handleClick(op){
         } else {
             if (possibleOp.includes(op) && calc.innerHTML !== ""){
                 numbers.push(Number(calc.innerText))
-                calc.innerHTML += ` ${operationsOnScreen(op)} ` 
+                calc.innerHTML += ` ${operationsOnScreen(op)}&nbsp;` 
                 isOperating = true
                 operation = op
             } else if (op === "porcent" && calc.innerHTML !== "") {
