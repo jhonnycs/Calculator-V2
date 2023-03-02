@@ -82,6 +82,10 @@
     
 }
 @media screen and (max-width: 768px) {
+    .container2 {
+        height: 90vh;
+    }
+
     .container {
         width: 380px;
         height: 620px;
